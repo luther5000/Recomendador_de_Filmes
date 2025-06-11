@@ -14,5 +14,5 @@ coleção de informações para montagem do dataset utilizado foi feita em sites
 É possível ver toda a coleta das informações no arquivo `create_csv.ipynb`.
 
 # Funcionamento
-O sistema disposto no arquivo `recommendations.ipynb` lê o arquivo `finalDataset.csv` contendo informações sobres as trilhas sonoras dos filmes descritos em `info_music_dataset.txt` e 
+O sistema disposto no arquivo `recommendations.ipynb` lê o arquivo `finalDataset.csv` contendo informações sobres as trilhas sonoras dos filmes descritos em `info_music_dataset/filmesJaUsados.txt` e 
 então, através de um autoencoder, seleciona uma das músicas dispostas no `csv` e a compara com todas as outras, apontando então os filmes que possuem alguma música com maior semelhança.
